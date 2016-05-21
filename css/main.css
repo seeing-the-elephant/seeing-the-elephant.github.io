@@ -1,0 +1,380 @@
+/*
+
+CSS Table of Contents
+
+00 - Typeface Imports
+
+01 - Typography Styles
+
+02 - Base Styles
+	02a - Helper Styles
+
+03 - Layout Styles
+
+04 - Module Styles
+
+05 - State Changes
+
+*/
+
+/* --------------------------------------------------------- */
+
+/* 00 Begin Importing Typefaces */
+	@charset "UTF-8";
+		@font-face {font-family: "seeing-the-elephant"; src:url("../fonts/seeing/seeing-the-elephant.eot"); src:url("../fonts/seeing/seeing-the-elephant.eot?#iefix") format("embedded-opentype"), url("../fonts/seeing/seeing-the-elephant.woff") format("woff"), url("../fonts/seeing/seeing-the-elephant.ttf") format("truetype"), url("../fonts/seeing/seeing-the-elephant.svg#seeing-the-elephant") format("svg"); font-weight: normal; font-style: normal; } [data-icon]:before {font-family: "seeing-the-elephant" !important; content: attr(data-icon); font-style: normal !important; font-weight: normal !important; font-variant: normal !important; text-transform: none !important; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } [class^="el-icon-"]:before,[class*=" el-icon-"]:before {font-family: "seeing-the-elephant" !important; font-style: normal !important; font-weight: normal !important; font-variant: normal !important; text-transform: none !important; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; } .el-icon-about-icon:before {content:"a";}.el-icon-arrow-down-icon:before {content:"b";}.el-icon-arrow-left-icon:before {content:"c";}.el-icon-arrow-right-icon:before {content:"d";}.el-icon-arrow-up-icon:before {content:"e";}.el-icon-donate-icon:before {content:"f";}.el-icon-facebook-icon:before {content:"g";}.el-icon-google-icon:before {content:"h";}.el-icon-home-icon:before {content:"i";}.el-icon-learn-icon:before {content:"j";}.el-icon-menu-icon:before {content:"k";}.el-icon-twitter-icon:before {content:"l";}
+		@font-face {font-family: 'brothers'; src: url('../fonts/brothers/BrothersBold-webfont.eot'); src: url('../fonts/brothers/BrothersBold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/brothers/BrothersBold-webfont.woff2') format('woff2'), url('../fonts/brothers/BrothersBold-webfont.woff') format('woff'), url('../fonts/brothers/BrothersBold-webfont.ttf') format('truetype'), url('../fonts/brothers/BrothersBold-webfont.svg#brothers') format('svg'); font-weight: normal; font-style: normal;}
+		@font-face {font-family: 'chunkfive';src: url('../fonts/chunkfive/chunkfive-webfont-webfont.eot'); src: url('../fonts/chunkfive/chunkfive-webfont-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/chunkfive/chunkfive-webfont-webfont.woff2') format('woff2'), url('../fonts/chunkfive/chunkfive-webfont-webfont.woff') format('woff'), url('../fonts/chunkfive/chunkfive-webfont-webfont.ttf') format('truetype'), url('../fonts/chunkfive/chunkfive-webfont-webfont.svg#chunkfiveregular') format('svg'); font-weight: normal; font-style: normal;}
+/* 00 End Importing Typefaces */
+
+/* --------------------------------------------------------- */
+
+
+/* 01 - Begin Typography Styles */
+
+	h1, h2, h3, h4, h5, h6, p {margin:0px;padding:0px;}
+	body {font-family:'PT Serif', serif;}
+	.story-page {font-size:18px;}
+		.story-page h1 {font-size:3.998em;}
+		.story-page h2 {font-size:2.827em;}
+		.story-page h3 {font-size:1.999em;}
+		.story-page h4 {font-size:1.414em;}
+		.story-page p {font-size:1em;}
+		.story-page h5 {font-size:.707em;}
+		.bigger {font-size:1.1em !important;}
+		.smaller {font-size:.88em !important;}
+		.footer-li {font-size:16px;}
+
+	.white-text {color:#f1f1f1;}
+	.black-text {color:#272727;}
+	.blue-text {color:#536c86;}
+	.alt-blue-text {color:#7999be;}
+	.red-text {color:#a82d38;}
+
+	.heading {font-family: 'Abril Fatface', cursive;}
+	.sub-heading {font-family: 'brothers', 'Times New Roman', serif;-webkit-font-smoothing:antialiased;}
+	.form-control {font-family: 'PT Serif', serif;}
+	.btn-copy, .nav-wrapper, #success-close {font-family:'chunkfive',serif;line-height:1.4;-webkit-font-smoothing: antialiased;}
+	.el-icon {font-family:'seeing-the-elephant';}
+
+/* 01 - End Typography Styles */
+
+/* --------------------------------------------------------- */
+
+
+/* 02 - Begin Base Styles */
+
+	html, body {background:#f1f1f1;width:100%;height:100%;}
+	body.story-page {height:auto;}
+	body, .content-wrapper {position:relative;}
+	.content-wrapper {z-index:1;}
+	header {z-index:2;}
+	.nav-wrapper {z-index:99;}
+	#success-box {z-index:999;}
+
+/* 02 - End Base Styles */
+
+
+/* --------------------------------------------------------- */
+
+/* 03 - Layout Styles */
+	
+	/* 03a - Helper Styles */
+
+		.full-height {height:100vh;}
+		.left-float {float:left;} .right-float {float:right;}
+		.abs {position:absolute;} .rel {position:relative;} .fix {position:fixed;}
+		.fill-bg-img {background-size:cover;background-position:50% 50%;}
+		.white-bg {background:#f1f1f1;}
+		.black-bg {background:#272727;}
+		.blue-bg {background:#536c86;}
+		.dark-blue-bg {background:#373f46;}
+		.dark-red-bg {background:#382f2b;}
+		.red-bg {background:#a82d38;}
+		.nav-padding {padding-top:60px;}.nav-margin {margin-top:60px;}
+
+	/* 03a - Helper Styles */
+
+	/* -------------------------------------- */
+
+/* 03 - Layout Styles */
+
+/* --------------------------------------------------------- */
+
+/* 04 Module Styles */
+
+
+
+/* 04 Module Styles */
+
+
+
+
+
+/* --------------------------------------------------------- */
+	/* Begin Icons */
+		header .icon-container, .socials-icon {background:#272727;}
+
+		.icon-container {opacity:.5;}
+
+		.icon-wrapper {position:absolute;}
+			.arrow-down {bottom:4%;width:100%;}
+			.left-arrow, .right-arrow {top:45%;}
+				.arrow-container {display:inline-block;}
+
+				.left-arrow {left:19px;} .right-arrow {right:19px;}
+
+		.carousel .icon-container {bottom:10%;position:absolute;}
+			.carousel .left-icon {left:20px;}
+			.carousel .right-icon {right:20px;}
+				.carousel-icon-right {margin-left:3px;}
+				.carousel-icon-left {margin-left:-3px;}
+
+
+		.nav-li > .icon-container {display:inline-block; margin:8px 8px 0px 0px;}
+		.icon-container {width:36px;height:36px;-webkit-border-radius:36px;-moz-border-radius: 36px;border-radius: 36px;}
+			.icon {font-size:18px;line-height:36px;}
+			.close-x {font-size:18px;line-height:38px;}
+			.icon-small {font-size:10px;position: relative;top: -3px;font-size: 10px;}
+
+		.icon {font-family:'elephant-fonts';}
+		.el-icon {font-family:'seeing-the-elephant' !important;}
+	/* End Icons */
+/* --------------------------------------------------------- */
+
+/* Begin Typography */
+
+		.mobile-small, .mobile-stacked {font-size:.5em;}
+	
+	.heading {font-family: 'Abril Fatface', cursive;}
+	.sub-heading {font-family: 'brothers', 'Times New Roman', serif;-webkit-font-smoothing:antialiased;}
+	.form-control {font-family: 'PT Serif', serif;}
+	.btn-copy, .nav-wrapper, #success-close {font-family:'chunkfive',serif;line-height:1.4;-webkit-font-smoothing: antialiased;}
+	button.btn-copy {line-height:38px;}
+
+	a, a:hover, a:visited, a:focus {color:#f1f1f1;text-decoration:none;border:none;outline:none;}
+	button, button:hover, button:visited, button:focus {border:none;outline:none;}
+
+	.heading-container {padding:2%;}
+	.text-container, .body-container {padding:8%;}
+	.body-container-top {padding:8% 8% 0% 8%;}
+	.body-container-mid {padding:0% 8%;}
+	.body-container-bottom {padding:0% 8% 8% 8%;}
+	.body-container.end, .photo-copy-container.end {padding-bottom:24%;}
+	.stacked-heading {line-height:.6em;padding-top:10%;}
+
+	.title-container {padding-top:65%;opacity:.8;}
+		.title-container h2 {font-size:1.8em;}
+	.heading-container {padding:4% 0% 4% 0%;}
+	.year-heading {padding:4% 0% 0% 0%;}
+	.intro-container {padding:20% 4% 20% 4%;}
+	.slide-heading {padding-top:5%;}
+	.slide-body {padding:5% 4% 20% 4%;}
+	.footnote {padding-top:2%;}
+
+	/* Text Logo Settings */
+	  .homepage-logo {padding:12% 0% 5% 0%;font-size:14px;}
+      .homepage-logo h1 {font-size:5em;line-height:.5em;} 
+      .homepage-logo h4 {font-size:1.6em;line-height:1.5em;opacity:.8;}
+
+	/* End */
+
+
+/* End Typography */
+
+/* --------------------------------------------------------- */
+
+	/* Begin Header & Nav */
+		header {height:60px;}
+		.brand-image, .burger-menu, .close-btn {width:60px;height:60px;padding:12px 0px 0px 20px;}
+		.burger-div {width:18px;height:2px;left:9px;background:#f1f1f1;}
+		#bar-one {top:12px;}
+		#bar-two {top:17px;}
+		#bar-three {top:22px;}
+	/* End Header */
+
+/* --------------------------------------------------------- */
+
+	/* Begin Nav */
+	.nav-tabs {border-bottom:none;}
+		.nav-wrapper {background-image:url(../img/nav_bg.jpg);background-position:50% 50%;background-repeat:no-repeat;width:100%;height:100%;left:100%;background-size:cover;}
+			.nav-container {height:100%;}
+				.close-btn, #success-close, .nav-li {font-size:24px;line-height:48px;}
+			.nav-title {line-height:1em;padding:2% 0%;font-size:36px;}
+			.nav-ul {width:100%;padding-top:2%;}
+				.nav-li {width:100%;padding:0% 0% 0% 15px;border-bottom:1px solid rgba(245,245,245,.2);background:rgba(39,39,39,.65);}
+					.sub-nav {padding-left:10%;font-size:16px;}
+				.last {border-bottom:none;}
+		.nav-contain {cursor:pointer;}
+		.nav-copy a {color:#f1f1f1;opacity:.65;}
+		.nav-copy:hover a {opacity:1;}
+		.nav-active > a {opacity:1;}
+	/* End Nav */
+
+/* --------------------------------------------------------- */
+	/* Bgin Button Styles */
+		button, .button {color:#f1f1f1; font-size:18px; display:block; height:36px;padding:0px 30px;margin:0 auto;border:none;background:#272727; -webkit-border-radius:36px; -moz-border-radius: 36px; border-radius:36px;}	
+  	/* End Button Styles */
+/* --------------------------------------------------------- */
+
+	/* Begin Stories Pages - General Styles */
+
+		.share-row {padding:4% 0% 0% 0%;}
+			.share-icon {padding-right:8%;}
+			.share-icon.end {padding-right:0%;}
+			.share-icon:nth-child(3) {padding-right:0;}
+				.socials-icon {display:inline-block;}
+
+				#fb-share:hover .socials-icon {background:#3B5998;}
+
+		.photo {padding-top:20%;}
+		.quote-container {padding-top:60%;}
+
+		.video-container {padding:8% 0%;}
+		.intro-row {padding:25% 0%;background-size:cover;overflow:hidden;}
+		.year-title {top:0px;left:0px;opacity:.4;width:100%;font-size: 7.5em !important;line-height:1.4em;}
+
+		.story-page .callout-container h3 {padding-bottom:20px;}
+		.story-page #hero {height:100%;background-position: 80% 50%;}
+
+
+		video#bgvid {
+		position: absolute; top:-70px;left:-680px;
+		min-width: 100%; min-height: 100%;
+		width: auto; height: auto;;
+		background-image: url(img/03_mobile-bg.jpg) no-repeat;
+		background-size: cover;
+		}
+		#video-overlay {z-index:1;}
+		#video-title {z-index:2;}
+
+		.year-section {overflow:hidden;}
+
+		.story-page #footer {background:#272727;}
+			.story-page #back-to-top {cursor:pointer;}
+
+		.footer-ul
+			.footer-li {display:inline-block;margin:0 5px;}
+				.footer-container {padding:8% 0%;}
+
+    .nav-tabs>li>a {border-radius:0px;}
+    .story-page header {background:rgba(39,39,39,.4);}
+    .nav-tabs>li.active>a, 
+    .nav-tabs>li.active>a:hover, 
+    .nav-tabs>li.active>a:focus,
+    .nav-tabs>li>a:hover, 
+    .nav-tabs>li>a:focus,  
+    .nav-tabs>li:hover>a 
+      {background:rgba(241,241,241,.5);border-radius:0px !important;color:#272727;border:1px solid rgba(0,0,0,0);}
+  .navbar-nav li {background:rgba(39,39,39,.5);}
+  .navbar-brand, .navbar-nav>li>a {text-shadow:none;}
+  .navbar-example {z-index:9;}
+  .story-page .burger-menu, .story-page .brand-image {margin-right:20px;}
+
+	/* End Stories Pages - General */
+
+/* --------------------------------------------------------- */
+	/* Begin Audio Controller */
+		.audio-container {bottom:10%;width:100%;}
+			.audio-ul {width:160px;margin:0 auto;background:rgba(39,39,39,.65);-webkit-border-radius:36px;-moz-border-radius: 36px;border-radius: 36px;height:36px;padding:0px 20px;}
+				.audio-ul li {display:inline-block;font-size:18px;vertical-align:middle;padding: 6px 2px 0px 2px;}
+     /* End Audio Controller */
+/* --------------------------------------------------------- */
+/* End General Styles */
+/* --------------------------------------------------------- */
+	/* Begin SM Size */
+		@media screen and (min-width: 768px){
+
+			.intro-row h3 {font-size:3em;}
+
+			.footer-li {font-size:18px;}
+
+		.bigger {font-size:1.3em !important;}
+		.smaller {font-size:.88em !important;}
+
+		.share-row {padding:2% 0% 0% 0%;}
+			.share-icon {padding-right:2%;}
+			.intro-row {padding:15% 0%;}
+
+			.title-container h2 {font-size:2.8em;}
+
+			.year-title {font-size:15em !important;line-height:1.2em;margin-top: -40px;}
+
+			.carousel .icon-container {bottom: 50%;}
+
+			.nav-ul {padding-top:10%;}
+
+			.homepage-logo h1 {font-size:6.5em;line-height:1em;}
+			.homepage-logo h4 {font-size:3em;line-height:1em;}
+			.nav-wrapper {overflow:hidden;}
+			.stacked-heading {line-height:1em;padding-top:0%;}
+			.mobile-stacked {font-size:1em;}
+
+			#page-title {padding-top:15%;}
+			.intro-container {padding:40% 4% 0% 4%;}
+			.slide-body {padding:5% 10% 0% 10%;}
+
+			.callout-container {padding-top:50%;}
+			.callout-container h1 {font-size:72px;}
+
+			.mobile-small {font-size:1em;}
+			.footer-li {margin:0 15px;}
+			}
+/* End SM Size */
+/* --------------------------------------------------------- */
+/* Begin MD Size */
+	@media screen and (min-width: 992px){
+
+		.footer-li {font-size:24px;}
+
+		.story-page #hero {background-position: 50% 50%;}
+
+		.body-container.end, .photo-copy-container.end {padding-bottom:8%;}
+
+		.intro-row {padding:10% 0%;}
+
+		.title-container {padding-top:28%;opacity:.65;}
+			.title-container h2 {font-size:2.827em;}
+
+		.year-title {margin-top: -24px;}
+
+		.icon-container, button, .brand-image, .burger-menu, .audio-ul li, .close-btn, .nav-li, .callout-container {opacity:.65;cursor:pointer;}
+		.icon-container:hover, button:hover, .brand-image:hover, .burger-menu:hover, .audio-ul li:hover, .close-btn:hover, .nav-li:hover, .nav-active, .callout-container:hover {opacity:1;}
+
+		.nav-wrapper {width:25%;}
+		.story-page {font-size:18px;}
+
+		.callout-container {padding-top:40%;}
+		.modal-dialog {margin-top:16%;}
+	}
+/* End MD Size */
+/* --------------------------------------------------------- */
+/* Begin Desktop Small */
+
+	@media screen and (min-width: 1200px){
+
+		.title-container {padding-top:17%;}
+
+		video#bgvid {top:0px;left:-0px;}
+		.year-title {font-size:22em !important;margin-top:-110px;}
+		.intro-row {background-attachment:fixed;}
+
+		#fb-share:hover .socials-icon {background:#3B5998;}
+		#tw-share:hover .socials-icon {background:#00aced;}
+		#gg-share:hover .socials-icon {background:#d34836;}
+
+		.story-container {margin-top:-50px;padding-bottom:50px;position:relative;z-index:10;}
+		.story-outro {margin-bottom:-50px;padding-top:50px;position:relative;z-index:10;}
+		.story-page {font-size:24px;}
+		.callout-container {padding-top:30%;}
+	}
+/* End Desktop Small */
+/* --------------------------------------------------------- */
+
+
+	#homepage-cta, #confed-half, #union-half, .story-cta, #founders-half, #exhibit-half, #location-submit, #payment-submit-btn, #success-container, .transition, a, a > * {
+		-webkit-transition: all .3s ease;
+		-moz-transition: all .3s ease;
+		-ms-transition: all .3s ease;
+		-o-transition: all .3s ease;
+		transition: all .3s ease;
+	}
